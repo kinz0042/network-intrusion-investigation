@@ -1,0 +1,174 @@
+frame,time_utc,src,sport,dst,dport,headers,body_prefix_hex
+60,2026-11-10T18:19:55.170789Z,23.53.127.137,80,10.11.10.147,49669,"HTTP/1.1 200 OK
+Content-Length: 22
+Date: Tue, 10 Nov 2026 18:19:55 GMT
+Connection: close
+Content-Type: text/plain
+Cache-Control: max-age=30, must-revalidate",4d6963726f736f667420436f
+1409,2026-11-10T18:20:27.086663Z,150.171.30.11,80,10.11.10.147,54018,"HTTP/1.1 200 OK
+Cache-Control: no-store, must-revalidate, no-cache, max-age=0
+Pragma: no-cache
+Content-Length: 96
+Content-Type: application/json
+Content-Encoding: gzip
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+X-FALCON-REF: Ref A: 52952D4620104493B45E5EAD0D0AF906 Ref B: SC-EUS2-OKASL_AKS-GEN00-18167424-VMSS000008_FABRICROUTER-AZUREGLOBALPRIVATE-7F9B9F577F-8PJFS Ref C: 2026-11-10T18:20:27Z
+X-Falcon-RouterStatusCode: SuccessfullyForwarded (200)
+X-Frame-Options: sameorigin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+x-cup-server-proof: 3045022100C1B86F45BCE6613D1692A7640F58AA606413191FB839DA291FCB21A233F5D82A022043A5CE69AA2B927B42EE98832BE308523260B100616ACE41A173BF29F4414D57:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Content-Disposition: attachment; filename='json.txt'
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 52952D4620104493B45E5EAD0D0AF906 Ref B: SN4AA2022401033 Ref C: 2026-11-10T18:20:27Z
+Date: Tue, 10 Nov 2026 18:20:26 GMT",1f8b080000000000000ad38c
+11080,2026-11-10T18:21:50.091668Z,96.62.224.200,80,10.11.10.147,51484,"HTTP/1.1 200 OK
+Date: Tue, 10 Nov 2026 18:21:50 GMT
+Server: Apache/2.4.58 (Ubuntu)
+Last-Modified: Tue, 03 Nov 2026 04:25:14 GMT
+ETag: ""3e7b-65f57a61d5e80""
+Accept-Ranges: bytes
+Content-Length: 15995
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html",3c230a233e0a24435378554c
+19857,2026-11-10T18:21:59.209024Z,96.62.224.200,80,10.11.10.147,51486,"HTTP/1.1 200 OK
+Date: Tue, 10 Nov 2026 18:21:59 GMT
+Server: Apache/2.4.58 (Ubuntu)
+Last-Modified: Tue, 03 Nov 2026 04:24:47 GMT
+ETag: ""5c3e7f-65f57a48161c0""
+Accept-Ranges: bytes
+Content-Length: 6045311
+Connection: close
+Content-Type: video/mp4",000000186674797069736f6d
+24677,2026-11-10T18:22:07.906857Z,93.152.209.36,443,10.11.10.147,51487,"HTTP/1.1 200 OK
+Server: NetSupport Gateway/1.92 (Windows NT)
+Content-Type: application/x-www-form-urlencoded
+Content-Length:    69
+Connection: Keep-Alive",434d443d454e43440a45533d
+24680,2026-11-10T18:22:08.072042Z,93.152.209.36,443,10.11.10.147,51487,"HTTP/1.1 200 OK
+Server: NetSupport Gateway/1.92 (Windows NT)
+Content-Type: application/x-www-form-urlencoded
+Content-Length:   155
+Connection: Keep-Alive",434d443d454e43440a45533d
+25786,2026-11-10T18:30:12.963358Z,199.232.214.172,80,10.11.10.147,56194,"HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 7331
+Cache-Control: public,max-age=172800
+Content-Type: application/vnd.ms-cab-compressed
+Last-Modified: Tue, 10 Nov 2026 18:05:18 GMT
+ETag: ""0327b3e71dd1:0""
+Accept-Ranges: bytes
+Date: Tue, 10 Nov 2026 18:30:12 GMT
+Via: 1.1 varnish
+Age: 878
+X-Served-By: cache-iah1720092-IAH
+X-Cache: HIT
+X-Cache-Hits: 264
+X-Timer: S1794335413.948378,VS0,VE0
+X-CID: 3
+X-CCC: US",4d53434600000000a31c0000
+25795,2026-11-10T18:30:13.008312Z,199.232.214.172,80,10.11.10.147,56194,"HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 7323
+Cache-Control: public,max-age=172800
+Content-Type: application/vnd.ms-cab-compressed
+Last-Modified: Tue, 10 Nov 2026 18:05:18 GMT
+ETag: ""0327b3e71dd1:0""
+Accept-Ranges: bytes
+Date: Tue, 10 Nov 2026 18:30:12 GMT
+Via: 1.1 varnish
+Age: 878
+X-Served-By: cache-iah1720092-IAH
+X-Cache: HIT
+X-Cache-Hits: 265
+X-Timer: S1794335413.993287,VS0,VE0
+X-CID: 3
+X-CCC: US",4d534346000000009b1c0000
+25807,2026-11-10T18:30:13.044751Z,199.232.214.172,80,10.11.10.147,56194,"HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 10479
+Cache-Control: public,max-age=172800
+Content-Type: application/vnd.ms-cab-compressed
+Last-Modified: Tue, 10 Nov 2026 18:05:20 GMT
+ETag: ""03058c3e71dd1:0""
+Accept-Ranges: bytes
+Date: Tue, 10 Nov 2026 18:30:13 GMT
+Via: 1.1 varnish
+Age: 878
+X-Served-By: cache-iah1720092-IAH
+X-Cache: HIT
+X-Cache-Hits: 271
+X-Timer: S1794335413.029313,VS0,VE0
+X-CID: 3
+X-CCC: US",4d53434600000000ef280000
+25993,2026-11-10T18:30:16.546728Z,199.232.214.172,80,10.11.10.147,56199,"HTTP/1.1 206 Partial Content
+Connection: keep-alive
+Content-Length: 551328
+Cache-Control: public,max-age=172800
+Content-Type: application/octet-stream
+Last-Modified: Tue, 10 Nov 2026 15:50:34 GMT
+ETag: ""081b6382b71dd1:0""
+Accept-Ranges: bytes
+Date: Tue, 10 Nov 2026 18:30:16 GMT
+Via: 1.1 varnish
+Age: 8846
+X-Served-By: cache-iah17259-IAH
+X-Cache: HIT
+X-Cache-Hits: 57
+X-Timer: S1794335417.524776,VS0,VE0
+X-CID: 3
+X-CCC: US
+Content-Range: bytes 0-551327/551328",4d5a90000300000004000000
+26559,2026-11-10T18:31:12.102133Z,199.232.210.172,80,10.11.10.147,56202,"HTTP/1.1 304 Not Modified
+Connection: keep-alive
+Date: Tue, 10 Nov 2026 18:31:12 GMT
+Via: 1.1 varnish
+X-Varnish: 3999064286
+Cache-Control: public,max-age=900
+ETag: ""7e83fa3dbd60dd1:0""
+Age: 204",
+26563,2026-11-10T18:31:12.142829Z,199.232.210.172,80,10.11.10.147,56202,"HTTP/1.1 304 Not Modified
+Connection: keep-alive
+Date: Tue, 10 Nov 2026 18:31:12 GMT
+Via: 1.1 varnish
+X-Varnish: 3999064447
+Cache-Control: public,max-age=900
+ETag: ""a019bf98d65dd1:0""
+Age: 316",
+26570,2026-11-10T18:31:12.202811Z,199.232.210.172,80,10.11.10.147,56202,"HTTP/1.1 304 Not Modified
+Connection: keep-alive
+Date: Tue, 10 Nov 2026 18:31:12 GMT
+Via: 1.1 varnish
+X-Varnish: 3999064728
+Cache-Control: public,max-age=900
+ETag: ""80424021c7dbd21:0""
+Age: 270",
+28328,2026-11-10T19:33:03.649634Z,23.55.178.21,80,10.11.10.147,56238,"HTTP/1.1 304 Not Modified
+Content-Type: application/vnd.ms-cab-compressed
+Last-Modified: Tue, 20 Oct 2026 18:02:59 GMT
+ETag: ""7e83fa3dbd60dd1:0""
+Cache-Control: public,max-age=900
+Date: Tue, 10 Nov 2026 19:33:03 GMT
+Connection: keep-alive
+X-CCC: US
+X-CID: 2",
+28331,2026-11-10T19:33:03.689411Z,23.55.178.21,80,10.11.10.147,56238,"HTTP/1.1 304 Not Modified
+Content-Type: application/vnd.ms-cab-compressed
+Last-Modified: Mon, 26 Oct 2026 21:07:13 GMT
+ETag: ""a019bf98d65dd1:0""
+Cache-Control: public,max-age=900
+Date: Tue, 10 Nov 2026 19:33:03 GMT
+Connection: keep-alive
+X-CCC: US
+X-CID: 2",
+28334,2026-11-10T19:33:03.749475Z,23.55.178.21,80,10.11.10.147,56238,"HTTP/1.1 304 Not Modified
+Content-Type: application/vnd.ms-cab-compressed
+Last-Modified: Fri, 02 Jun 2017 17:39:05 GMT
+ETag: ""80424021c7dbd21:0""
+Cache-Control: public,max-age=900
+Date: Tue, 10 Nov 2026 19:33:03 GMT
+Connection: keep-alive
+X-CCC: US
+X-CID: 2",

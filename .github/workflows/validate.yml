@@ -1,0 +1,37 @@
+name: Validate investigation
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  synthetic-and-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/verify_case.py evidence/analysis.json
+  independent-capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Install independent dissector
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tshark
+      - name: Obtain original capture and verify hashes
+        run: python scripts/fetch_capture.py
+      - name: Reproduce packet evidence
+        run: |
+          python scripts/analyze.py source/2026-11-10-traffic-analysis-exercise.pcap --out rerun
+          python scripts/verify_case.py rerun/analysis.json
+          diff evidence/analysis.json rerun/analysis.json
+      - name: Validate key packet with TShark
+        run: python scripts/verify_tshark.py source/2026-11-10-traffic-analysis-exercise.pcap

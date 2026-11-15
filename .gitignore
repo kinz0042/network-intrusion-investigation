@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+*.pcap
+*.pcapng
+*.zip
+source/
+rerun/

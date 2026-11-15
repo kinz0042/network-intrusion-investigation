@@ -1,0 +1,14 @@
+{
+  "source_title": "The Lucky Turkey traffic-analysis exercise",
+  "author": "Brad Duncan / Malware-Traffic-Analysis.net",
+  "source_date": "2026-11-10",
+  "analysis_date_utc": "2026-11-15",
+  "page": "https://www.malware-traffic-analysis.net/2026/11/10/index.html",
+  "archive_sha256": "315c1d40f49578d48063c73dcec5746604d5d7b5c9082661e4bd0df5db5fbfa5",
+  "capture_sha256": "b52bd2a4ec9d747266206e10df01283197cc3e8ace8af20f1c1e5fb8f0b61533",
+  "capture_bytes": 31077208,
+  "raw_capture_redistributed": false,
+  "answer_page_used": false,
+  "source_context": "Exercise prompt identifies NetSupport alerts for 93.152.209.36:443. Analysis therefore is not a blind malware-family identification.",
+  "execution": "Offline Python 3.12.14 with dpkt 1.9.8. No payload execution or object export."
+}

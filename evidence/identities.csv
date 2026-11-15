@@ -1,0 +1,13 @@
+frame,time_utc,src,sport,dst,dport,kind,hostname,client_mac,requested_ip,principal,realm
+1,2026-11-10T18:19:52.691329Z,0.0.0.0,68,255.255.255.255,67,dhcp_hostname,DESKTOP-5OMVI3L,00:12:f0:e5:17:43,,,
+3,2026-11-10T18:19:52.746570Z,0.0.0.0,68,255.255.255.255,67,dhcp_hostname,DESKTOP-5OMVI3L,00:12:f0:e5:17:43,10.11.10.147,,
+99,2026-11-10T18:19:56.242421Z,10.11.10.147,49673,10.11.10.10,88,kerberos_as_request,,,,desktop-5omvi3l$,theluckyturkey.com
+115,2026-11-10T18:19:56.256856Z,10.11.10.147,49676,10.11.10.10,88,kerberos_as_request,,,,desktop-5omvi3l$,theluckyturkey.com
+117,2026-11-10T18:19:56.257056Z,10.11.10.147,49675,10.11.10.10,88,kerberos_as_request,,,,desktop-5omvi3l$,theluckyturkey.com
+130,2026-11-10T18:19:56.258470Z,10.11.10.147,49678,10.11.10.10,88,kerberos_as_request,,,,desktop-5omvi3l$,THELUCKYTURKEY.COM
+139,2026-11-10T18:19:56.269407Z,10.11.10.147,49679,10.11.10.10,88,kerberos_as_request,,,,desktop-5omvi3l$,theluckyturkey.com
+143,2026-11-10T18:19:56.270494Z,10.11.10.147,49680,10.11.10.10,88,kerberos_as_request,,,,desktop-5omvi3l$,THELUCKYTURKEY.COM
+794,2026-11-10T18:20:03.951255Z,10.11.10.147,49710,10.11.10.10,88,kerberos_as_request,,,,DESKTOP-5OMVI3L$,THELUCKYTURKEY.COM
+802,2026-11-10T18:20:03.952488Z,10.11.10.147,49711,10.11.10.10,88,kerberos_as_request,,,,DESKTOP-5OMVI3L$,THELUCKYTURKEY.COM
+902,2026-11-10T18:20:14.476774Z,10.11.10.147,49715,10.11.10.10,88,kerberos_as_request,,,,edward.winslow,THELUCKYTURKEY
+910,2026-11-10T18:20:14.483938Z,10.11.10.147,49716,10.11.10.10,88,kerberos_as_request,,,,edward.winslow,THELUCKYTURKEY

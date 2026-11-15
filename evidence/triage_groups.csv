@@ -1,0 +1,2 @@
+src,dst,requests,first_frame,last_frame,median_interval_seconds,intervals_under_1_second,note
+10.11.10.147,93.152.209.36,125,24675,30177,60.134689,2,Packet-local deduplicated request starts. Regular timing alone does not prove C2.
