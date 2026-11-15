@@ -12,7 +12,7 @@ The real capture analysis passed the case assertions. These pin integrity and ex
 
 The workflow has two jobs. One runs synthetic tests and saved-evidence assertions. The other installs TShark from Ubuntu packages, obtains the original hash-pinned capture, regenerates the evidence, compares it byte-for-byte and independently verifies the key HTTP frame and total frame count.
 
-Check the run conclusion before claiming hosted checks passed. TShark was not available on the initial local runtime. No local Zeek, Suricata or Wireshark GUI execution is claimed.
+Both jobs passed in [run 43712913614](https://github.com/kinz0042/network-intrusion-investigation/actions/runs/43712913614), validating commit `36df6a9ca12b7174608dbd22dbb5d5033e24025e`. TShark 4.6.4 confirmed the Ethernet source, IP endpoints, destination port, HTTP method and user agent of frame 24675, plus all 30,182 frames. See [recorded output](../evidence/tshark-validation.json). This narrow check does not establish full agreement with every extractor field. The first hosted TShark attempt encountered file-access restrictions. Reading the already hash-verified capture through standard input resolved it. TShark was not available on the initial local runtime. No local Zeek, Suricata or Wireshark GUI execution is claimed.
 
 ## Not established
 

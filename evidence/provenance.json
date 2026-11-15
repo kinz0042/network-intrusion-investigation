@@ -10,5 +10,12 @@
   "raw_capture_redistributed": false,
   "answer_page_used": false,
   "source_context": "Exercise prompt identifies NetSupport alerts for 93.152.209.36:443. Analysis therefore is not a blind malware-family identification.",
-  "execution": "Offline Python 3.12.14 with dpkt 1.9.8. No payload execution or object export."
+  "execution": "Offline Python 3.12.14 with dpkt 1.9.8. No payload execution or object export.",
+  "independent_validation": {
+    "tool": "TShark 4.6.4",
+    "environment": "GitHub hosted Ubuntu runner",
+    "scope": "Frame 24675 protocol fields and total frame count",
+    "result": "passed",
+    "run": "https://github.com/kinz0042/network-intrusion-investigation/actions/runs/43712913614"
+  }
 }
