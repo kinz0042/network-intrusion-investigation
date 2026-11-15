@@ -52,6 +52,6 @@ No cloud subscription, payment card or live victim system is required. Retrieval
 
 ## Status
 
-Local analysis and all 20 tests passed. Both [hosted validation jobs](https://github.com/kinz0042/network-intrusion-investigation/actions/runs/43712913614) passed: synthetic cases, saved-evidence assertions, hash-pinned capture retrieval, byte-identical regeneration and independent TShark verification of the key HTTP frame and frame count. The project remains private until publication is approved.
+Local analysis and all 20 tests passed. Both [hosted validation jobs](https://github.com/kinz0042/network-intrusion-investigation/actions/runs/43712913614) passed: synthetic cases, saved-evidence assertions, hash-pinned capture retrieval, byte-identical regeneration and independent TShark verification of the key HTTP frame and frame count. Publication approved. All validation results and evidence limits are recorded below.
 
 [Source and provenance](evidence/provenance.json) · [Reproduction](docs/REPRODUCE.md) · [Incident report](docs/INCIDENT_REPORT.md)
