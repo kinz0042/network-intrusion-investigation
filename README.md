@@ -24,6 +24,10 @@ The investigation traces host identity, scripted retrieval and readable HTTP on 
 
 First matching request: frame 24675, 2026-11-10 18:22:07.728744 UTC. The first TCP connection packet is frame 24672 at 18:22:07.509531 UTC. Reporting both avoids confusing connection start with application activity.
 
+![Observed request cadence](evidence/request_cadence.svg)
+
+The two short initial intervals are retained rather than removed to make the timing appear more regular. [Plot script](scripts/plot_cadence.py) requires matplotlib, an optional reporting dependency.
+
 ## Tools and evidence limits
 
 Executed: Python 3.12.14, dpkt 1.9.8, hashlib, unittest and offline packet inspection. The custom extractor is deliberately limited to Ethernet classic PCAP, IPv4 and packet-local protocol fields. It does not reassemble TCP or decrypt TLS. It is not a replacement for a full network sensor.
